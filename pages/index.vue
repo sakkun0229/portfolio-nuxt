@@ -10,15 +10,9 @@
 
 <script>
 export default {
-  // data() {
-  //   return {
-  //     title: 'Hello, Nuxt!'
-  //   }
-  // },
   head() {
     return {
-      title: "Takahisa Sakuma's Portfolio",
-      meta: [{ hid: 'description', name: 'description', content: 'description' }]
+      title: "Takahisa Sakuma's Portfolio"
     }
   }
 }

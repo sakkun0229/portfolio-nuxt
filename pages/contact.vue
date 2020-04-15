@@ -45,6 +45,11 @@
 import axios from 'axios'
 
 export default {
+  head() {
+    return {
+      title: 'Contact'
+    }
+  },
   data() {
     return {
       valid: true,

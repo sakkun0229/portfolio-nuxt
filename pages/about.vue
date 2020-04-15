@@ -6,7 +6,7 @@
       </v-card-title>
 
       <v-avatar color="cyan" size="180" class="mb-5">
-        <v-img v-bind:src="image_src"></v-img>
+        <v-img :src="require('@/assets/me1.png')"></v-img>
       </v-avatar>
       <v-card-text>
         <h3 class="mb-6 headline text--primary">佐久間 貴久</h3>
@@ -23,9 +23,9 @@
 
 <script>
 export default {
-  data() {
+  head() {
     return {
-      image_src: require('@/assets/me1.png')
+      title: 'About'
     }
   }
 }

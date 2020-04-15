@@ -25,18 +25,29 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: 'Works'
+    }
+  },
   data() {
     return {
       items: [
         {
-          url: 'https://sakuma-takahisa.github.io/portfolio/',
-          img: require('@/assets/bootstrapLP.png'),
-          text: 'Bootstrapの練習がてら作成したLP的なページ'
+          url: '',
+          img: require('@/assets/nuxt-todo-app.png'),
+          text:
+            'Nuxt学習用に作ったTODOアプリ。Vuexのストア経由でFirebaseと通信させています。デプロイは準備中ですm(_ _)m'
         },
         {
           url: 'https://sakuma-takahisa.github.io/LP-practice/',
           img: require('@/assets/LPpractice.png'),
           text: 'コーディング練習ページ。フレームワークやjQueryを使用せずにスタイルや動きなども作成してみました。'
+        },
+        {
+          url: 'https://sakuma-takahisa.github.io/portfolio/',
+          img: require('@/assets/bootstrapLP.png'),
+          text: 'Bootstrapの練習がてら作成したLP的なページ'
         }
       ]
     }
