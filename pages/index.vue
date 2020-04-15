@@ -2,7 +2,8 @@
   <v-container class="home" fluid>
     <div class="home__wrapper text-center">
       <h1 class="display-3 font-weight-light mb-4">Takahisa Sakuma's Portfolio</h1>
-      <p class="subtitle-1">vue cli&vuetifyの学習を兼ねて作成したポートフォリオサイトです。</p>
+      <p class="subtitle-1 "><s> vue cli&vuetifyの学習を兼ねて作成したポートフォリオサイトです。 </s></p>
+      <p class="subtitle-1 ">Nuxt & Netlifyで再構築してみたよ (2020.April)</p>
     </div>
   </v-container>
 </template>

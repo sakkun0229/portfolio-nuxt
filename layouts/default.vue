@@ -1,10 +1,21 @@
 <template>
   <v-app>
+    <Navbar />
     <v-content class="grey lighten-3">
       <nuxt />
     </v-content>
   </v-app>
 </template>
+
+<script>
+import Navbar from '@/components/Navbar'
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
 
 <style>
 html {
