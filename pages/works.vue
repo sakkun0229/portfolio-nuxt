@@ -34,10 +34,9 @@ export default {
     return {
       items: [
         {
-          url: '',
+          url: 'https://nuxt-todo-app.netlify.app/',
           img: require('@/assets/nuxt-todo-app.png'),
-          text:
-            'Nuxt学習用に作ったTODOアプリ。Vuexのストア経由でFirebaseと通信させています。デプロイは準備中ですm(_ _)m'
+          text: 'Nuxt学習用に作ったTODOアプリ。Vuexのストア経由でFirebaseと通信させています。'
         },
         {
           url: 'https://sakuma-takahisa.github.io/LP-practice/',
