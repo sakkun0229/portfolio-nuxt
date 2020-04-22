@@ -3,7 +3,7 @@
     <v-toolbar flat dark class="grey darken-4">
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
-        <v-btn text v-for="item in items" :key="item.title" :to="item.link" nuxt>
+        <v-btn text v-for="item in items" :key="item.title" :to="item.link" nuxt aria-label="nav-button">
           <v-icon left>{{ item.icon }}</v-icon>
           {{ item.title }}
         </v-btn>
