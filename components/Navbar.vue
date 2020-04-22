@@ -11,7 +11,7 @@
       <v-spacer></v-spacer>
 
       <v-toolbar-items class="d-sm-none">
-        <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon @click="drawer = !drawer"><v-icon>fas fa-bars</v-icon></v-app-bar-nav-icon>
       </v-toolbar-items>
     </v-toolbar>
 
