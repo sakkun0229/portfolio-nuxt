@@ -17,7 +17,7 @@
 
     <v-navigation-drawer v-model="drawer" app right temporary class="grey darken-4">
       <v-list flat dark>
-        <v-list-item v-for="item in items" :key="item.title" :to="item.link">
+        <v-list-item v-for="item in items" :key="item.title" :to="item.link" nuxt>
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>

@@ -34,7 +34,7 @@
             color="cyan"
             class="mb-2"
           ></v-textarea>
-          <v-btn outlined color="cyan" @click="submit">Send</v-btn>
+          <v-btn outlined color="cyan" @click="submit" aria-label="send">Send</v-btn>
         </v-form>
       </v-card-text>
     </v-card>
