@@ -30,11 +30,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-// .about {
-//   background: linear-gradient(-135deg, #00BCD4, #E0F7FA);
-//   width: 100vw;
-//   height: 100vh;
-// }
-</style>
