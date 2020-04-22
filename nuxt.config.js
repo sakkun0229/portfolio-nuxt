@@ -31,7 +31,17 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxtjs/vuetify'],
+  buildModules: [
+    [
+      '@nuxtjs/vuetify',
+      {
+        defaultAssets: {
+          icons: false,
+          font: false
+        }
+      }
+    ]
+  ],
   /*
    ** Nuxt.js modules
    */
