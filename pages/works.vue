@@ -7,7 +7,7 @@
 
       <v-layout wrap>
         <v-flex xs12 sm6 md4 pa-2 v-for="item in items" :key="item.url">
-          <v-card height="100%">
+          <v-card height="100%" elevation="4">
             <v-card-subtitle>
               <a :href="item.url" target="_blank" rel="noopener">
                 <v-img :src="item.img"></v-img>

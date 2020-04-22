@@ -7,7 +7,7 @@
 
       <v-layout wrap class="mb-8">
         <v-flex xs12 sm6 md4 pa-2 v-for="item in items" :key="item.title">
-          <v-card height="100%">
+          <v-card height="100%" elevation="4">
             <v-card-title class="justify-center">
               <h3>{{ item.title }}</h3>
             </v-card-title>
