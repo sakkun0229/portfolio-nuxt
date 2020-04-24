@@ -1,6 +1,6 @@
 <template>
   <v-container class="about" fluid>
-    <v-card class="mx-auto mt-8 px-8 py-10 text-center" max-width="750">
+    <v-card class="mx-auto mt-8 px-8 py-10 text-center" max-width="750" elevation="4">
       <v-card-title class="justify-center">
         <h2 class="display-2 font-weight-light mb-10">About</h2>
       </v-card-title>
