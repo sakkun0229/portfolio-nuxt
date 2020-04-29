@@ -1,7 +1,7 @@
 <template>
   <v-container class="home" fluid>
     <div class="home__wrapper text-center">
-      <h1 class="mb-8">
+      <h1 class="mb-12">
         <span
           v-for="(t, index) in text"
           :key="index"
@@ -55,7 +55,7 @@ export default {
 .title-text {
   display: inline-block;
   min-width: 0.2em;
-  animation: text-in 0.8s cubic-bezier(0.22, 0.15, 0.25, 1.43) 0s backwards;
+  animation: text-in 0.4s cubic-bezier(0.22, 0.15, 0.25, 1.43) 0s backwards;
 }
 
 @media screen and (max-width: 1035px) {
