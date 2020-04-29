@@ -2,7 +2,9 @@
   <v-app>
     <Navbar />
     <v-content class="grey lighten-3">
-      <nuxt />
+      <transition name="view">
+        <nuxt />
+      </transition>
     </v-content>
   </v-app>
 </template>
@@ -17,7 +19,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
     sans-serif;
@@ -31,5 +33,22 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.view {
+  &-enter,
+  &-leave-to {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  &-enter-to,
+  &-leave {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  &-enter-active,
+  &-leave-active {
+    transition: 0.5s ease;
+  }
 }
 </style>
