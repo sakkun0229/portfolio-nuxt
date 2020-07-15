@@ -26,12 +26,12 @@ export default {
     return {
       title: "Takahisa Sakuma's Portfolio"
     }
-  },
-  data() {
-    return {
-      text: "Takahisa Sakuma's Portfolio"
-    }
   }
+  // data() {
+  //   return {
+  //     text: "Takahisa Sakuma's Portfolio"
+  //   }
+  // }
 }
 </script>
 
@@ -48,18 +48,18 @@ export default {
   }
 }
 
-@keyframes text-in {
-  0% {
-    transform: translate(0, -20px);
-    opacity: 0;
-  }
-}
+// @keyframes text-in {
+//   0% {
+//     transform: translate(0, -20px);
+//     opacity: 0;
+//   }
+// }
 
-.title-text {
-  display: inline-block;
-  min-width: 0.2em;
-  animation: text-in 0.4s cubic-bezier(0.22, 0.15, 0.25, 1.43) 0s backwards;
-}
+// .title-text {
+//   display: inline-block;
+//   min-width: 0.2em;
+//   animation: text-in 0.4s cubic-bezier(0.22, 0.15, 0.25, 1.43) 0s backwards;
+// }
 
 // @media screen and (max-width: 1035px) {
 //   h1 {
